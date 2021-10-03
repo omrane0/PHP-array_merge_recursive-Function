@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a=array("Dog","Cat","Horse","Bear","Zebra");
+array_multisort($a);
+print_r($a);
+?>
+
+</body>
+</html>
+
+
+
+
+
+Array ( [0] => Bear [1] => Cat [2] => Dog [3] => Horse [4] => Zebra )

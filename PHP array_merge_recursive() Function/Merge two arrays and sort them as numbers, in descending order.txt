@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a1=array(1,30,15,7,25);
+$a2=array(4,30,20,41,66);
+$num=array_merge($a1,$a2);
+array_multisort($num,SORT_DESC,SORT_NUMERIC);
+print_r($num);
+?>
+
+</body>
+</html>
+
+
+
+
+
+Array ( [0] => 66 [1] => 41 [2] => 30 [3] => 30 [4] => 25 [5] => 20 [6] => 15 [7] => 7 [8] => 4 [9] => 1 )

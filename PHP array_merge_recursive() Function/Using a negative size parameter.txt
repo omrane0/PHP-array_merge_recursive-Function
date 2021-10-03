@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a=array("red","green");
+print_r(array_pad($a,-5,"blue"));
+?>
+
+</body>
+</html>
+
+
+
+
+Array ( [0] => blue [1] => blue [2] => blue [3] => red [4] => green )
